@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import Features from './Features.jsx'
 function Header(){
     return(
         <header className="Nav_Header">
@@ -11,16 +10,16 @@ function Header(){
                         </Link>
                     </li>
                     <li id="p1">
-                        <Link to="/home" className="HButton">Home</Link>
+                        <Link to="/Home" className="HButton">Home</Link>
                     </li>
                     <li id="p1">
-                        <Link to="/features" className="HButton">Features</Link>
+                        <Link to="/Features" className="HButton">Features</Link>
                     </li>
                     <li id="p1">
-                        <Link to="/background" className="HButton">Background</Link>
+                        <Link to="/Background" className="HButton">Background</Link>
                     </li>
                     <li id="p1">
-                        <Link to="/team" className="HButton">Team</Link>
+                        <Link to="/Team" className="HButton">Team</Link>
                     </li>
                 </ul>
             </nav>

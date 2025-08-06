@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 function Home(){
     return(
         <body>
@@ -12,30 +12,30 @@ function Home(){
                     <p className="Text3">No long lines, no wasted time. Just quick access to your financial needs.</p>
                 </div>
                 <div className="columns">
-                    <a href="/Features.jsx">
+                    <Link to="/Features">
                         <div className="column">
                             <div id="card">
                                 <img id="img" src="/map2.jpg" ></img>
                             </div>
                             <div id="card">Features</div>
                         </div>
-                    </a>
-                    <a href="/Background.jsx">
+                    </Link>
+                    <Link to="/Background">
                         <div className="column">
                             <div id="card">
                                 <img id="img" src="/Atm_img.png"></img>
                             </div>
                             <div id="card">App Background</div>
                         </div>
-                    </a>
-                    <a href="/About.jsx">
+                    </Link>
+                    <Link to="/Team">
                         <div className="column">
                             <div id="card">
                                 <img id="img" src="/team_img.png"></img>
                             </div>
                             <div id="card">Team Info</div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </main>
         </body>
