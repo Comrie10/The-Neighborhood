@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 function Home(){
     return(
-        <body>
             <main className="Home_body_main">
                 <div className="Home_body_top">
                     <img src="/Neighborhood_icon(2).jpg" alt="Logo" className="Home_body_logo" id="logo"/>
@@ -12,7 +11,7 @@ function Home(){
                     <p className="Text3">No long lines, no wasted time. Just quick access to your financial needs.</p>
                 </div>
                 <div className="columns">
-                    <Link to="/Features">
+                    <Link to ="/Features">
                         <div className="column">
                             <div id="card">
                                 <img id="img" src="/map2.jpg" ></img>
@@ -22,15 +21,15 @@ function Home(){
                     </Link>
                    <Link to="/Background">
                         <div className="column">
-                            <div id="card">
+                            <div className="card">
                                 <img id="img" src="/Atm_img.png"></img>
                             </div>
-                            <div id="card">App Background</div>
+                            <div className="card">App Background</div>
                         </div>
                     </Link>
                     <Link to="/Team">
                         <div className="column">
-                            <div id="card">
+                            <div className="card">
                                 <img id="img" src="/team_img.png"></img>
                             </div>
                             <div id="card">Team Info</div>
@@ -38,7 +37,6 @@ function Home(){
                     </Link>
                 </div>
             </main>
-        </body>
     );
 } 
 export default Home;
