@@ -12,7 +12,7 @@ function Home(){
                     <p className="Text3">No long lines, no wasted time. Just quick access to your financial needs.</p>
                 </div>
                 <div className="columns">
-                    <a href="./Features.jsx">
+                    <a href="/Features.jsx">
                         <div className="column">
                             <div id="card">
                                 <img id="img" src="/map2.jpg" ></img>
@@ -20,7 +20,7 @@ function Home(){
                             <div id="card">Features</div>
                         </div>
                     </a>
-                    <a href="./Background.jsx">
+                    <a href="/Background.jsx">
                         <div className="column">
                             <div id="card">
                                 <img id="img" src="/Atm_img.png"></img>
@@ -28,7 +28,7 @@ function Home(){
                             <div id="card">App Background</div>
                         </div>
                     </a>
-                    <a href="./About.jsx">
+                    <a href="/About.jsx">
                         <div className="column">
                             <div id="card">
                                 <img id="img" src="/team_img.png"></img>
