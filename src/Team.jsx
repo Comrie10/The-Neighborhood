@@ -8,21 +8,21 @@ function Team(){
                 </div>
                     <div id="Team_cards">
                     <div className="Id_Cards">
-                        <img id="team_headshot" src="\Headshot.png"/>
+                        <img id="team_headshot" src="/Headshot.png"/>
                         <div className="Name_Tag">
                             <h2>Nia Erskine</h2>
                             <p id="id">620155827</p>
                         </div>
                     </div>
                     <div className="Id_Cards">
-                        <img id="team_headshot" src="\Headshot.png"/>
+                        <img id="team_headshot" src="/Headshot.png"/>
                         <div className="Name_Tag">
                             <h2>Nathan Gordon</h2>
                             <p id="id">620156694</p>
                         </div>
                     </div>
                     <div className="Id_Cards">
-                        <img id="team_headshot" src="\Headshot.png"/>
+                        <img id="team_headshot" src="/Headshot.png"/>
                         <div className="Name_Tag">
                             <h2>Tanisha Comrie</h2>
                             <p id="id">620156117</p>
