@@ -12,11 +12,11 @@ function App() {
       <Header/>
       <Router>
         <Routes>
-          <Route path="/" element={<Navigate to="./Home.jsx"/>}/>
-          <Route path="/Home.jsx" element={<Home />}/>
-          <Route path="/Team.jsx" element={<Team />}/>
-          <Route path="/Features.jsx" element={<Features />}/>
-          <Route path="/Background.jsx" element={<Background />}/>
+          <Route path="/" element={<Navigate to="./Home.jsx" replace/>}/>
+          <Route path="/home" element={<Home />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/background" element={<Background />} />
         </Routes>
       </Router>
       <Footer/>
