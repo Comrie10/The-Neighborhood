@@ -5,16 +5,27 @@ function Header(){
         <header className="Nav_Header">
             <nav>
                 <ul>
-                    <li><a href="./Home.jsx"><img src="\The Neighborhood.png" alt="Logo" id="heading_logo"/></a></li>
-                    <li id="p1"><a href="./Home.jsx" className= "HButton">Home</a></li>
-                    <li id="p1"><a href="./Features.jsx" className= "HButton">Features</a></li>
-                    <li id="p1"><a href="./Background.jsx" className= "HButton">Background</a></li>
-                    <li id="p1"><a href="./Team.jsx" className= "HButton">Team</a></li>
+                    <li>
+                        <Link to="/home">
+                        <img src="/The Neighborhood.png" alt="Logo" id="heading_logo" />
+                        </Link>
+                    </li>
+                    <li id="p1">
+                        <Link to="/home" className="HButton">Home</Link>
+                    </li>
+                    <li id="p1">
+                        <Link to="/features" className="HButton">Features</Link>
+                    </li>
+                    <li id="p1">
+                        <Link to="/background" className="HButton">Background</Link>
+                    </li>
+                    <li id="p1">
+                        <Link to="/team" className="HButton">Team</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
     );    
-    // the ribbon
 }
 
 export default Header
