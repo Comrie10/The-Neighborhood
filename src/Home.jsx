@@ -20,7 +20,7 @@ function Home(){
                             <div id="card">Features</div>
                         </div>
                     </Link>
-                    <Link to="/Background">
+                   <Link to="/Background">
                         <div className="column">
                             <div id="card">
                                 <img id="img" src="/Atm_img.png"></img>
