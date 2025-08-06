@@ -4,7 +4,7 @@ function Home(){
         <body>
             <main className="Home_body_main">
                 <div className="Home_body_top">
-                    <img src="\public\Neighborhood_icon(2).jpg" alt="Logo" className="Home_body_logo" id="logo"/>
+                    <img src="/Neighborhood_icon(2).jpg" alt="Logo" className="Home_body_logo" id="logo"/>
                 </div>
                 <div className="Intro">
                     <h1 className="Text1">Welcome to The Neighborhood</h1>
@@ -15,7 +15,7 @@ function Home(){
                     <a href="./Features.jsx">
                         <div className="column">
                             <div id="card">
-                                <img id="img" src="\public\map2.jpg" ></img>
+                                <img id="img" src="/map2.jpg" ></img>
                             </div>
                             <div id="card">Features</div>
                         </div>
@@ -23,7 +23,7 @@ function Home(){
                     <a href="./Background.jsx">
                         <div className="column">
                             <div id="card">
-                                <img id="img" src="\public\Atm_img.png"></img>
+                                <img id="img" src="/Atm_img.png"></img>
                             </div>
                             <div id="card">App Background</div>
                         </div>
@@ -31,21 +31,12 @@ function Home(){
                     <a href="./About.jsx">
                         <div className="column">
                             <div id="card">
-                                <img id="img" src="\public\team_img.png"></img>
+                                <img id="img" src="/team_img.png"></img>
                             </div>
                             <div id="card">Team Info</div>
                         </div>
                     </a>
                 </div>
-                {/* <div className="Home_body_1 rounded shadow">
-                    
-                    <h1 className = "Text1">No Long Lines</h1>
-                    <h3 className="Text2">Simple, reliable, No long wait time</h3>   
-                </div> 
-                <div className="Home_body_1 rounded shadow">
-                    <h1 className="Text1">No Wasted Time</h1>
-                    <h3 className="Text3">Locates the Nearest and most available ATM</h3>   
-                </div> */}
             </main>
         </body>
     );

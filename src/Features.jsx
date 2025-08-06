@@ -6,13 +6,13 @@ function Features(){
                     <h1 className="Feature_header_text"> What the Neighborhood can offer</h1>
                 </div>*/}
                 
-                <div className="rounded shadow" id="card_1">
+                <div className="feature_row" id="card_1">
                     <div id="card_0">
-                        <img id="s" src="\public\map2.jpg"/>
+                        <img id="s" src="/map2.jpg"/>
                     </div>
                     <div id="row_1">
                     <div className="feature_r1_c1">
-                        <img className = "image_1 rounded" src="\public\Portability_image.png" alt="Android and iOS"/>
+                        <img id="port"src="/Portability_image.png" alt="Android and iOS"/>
                     </div>
                     <div className="feature_r1_c2">
                         <h4 className="feature_r1_c2_header">
@@ -35,21 +35,17 @@ function Features(){
                         </p>
                     </div>
                     <div className="feature_r2_c1">
-                        <img src="\public\email_img.png" alt="Email" className="email_img"/>
+                        <img src="/email_img.png" alt="Email" className="email_img"/>
                     </div>
-                    <div className="feature_row" id="card_6">
-                        <div className="feature_r2_c3">
-                        <img src="\public\OTP verification.jpg"/>
-                    </div>
-                    </div>
+                    
                 </div>
                 <div className="feature_row" id="card_3">
                     <div id="card_8">
-                        <img src="/public/Survey.jpg" id="Survey"/>
+                        <img src="/Survey.png" id="Survey"/>
                     </div>
                      <div id="card_3_og">
                     <div className="feature_r3_c1">
-                        <img src="\public\questionnaire_img.png" alt="questionnaire" className="Questionnaire"></img>
+                        <img src="/questionnaire_img.png" alt="questionnaire" className="Questionnaire"></img>
                     <div className="feature_r3_c2">
                         <h4 className="feature_r3_c2_header">
                             Questionnaire for User Preferences
@@ -65,9 +61,7 @@ function Features(){
                 </div>
                 <div className="feature_row" id="card_4">
                     <div id="row_3_p1">
-                    <div className="feature_r4_c1">
-                        <img src="\public\map_pin_img.png" alt="Map Pin" className="map_pin_img"></img>
-                    </div>
+                    
                     <div className="feature_r4_c2">
                         <h4 className="feature_r4_c2_header">
                             Map Display with Pinned User and ATM Locations
@@ -84,11 +78,9 @@ function Features(){
                 </div>
                 <div className="feature_row" id="card_5">
                     <div>
-                        <img src="\public\Select_ATM.jpg" id="S_ATM"/>
+                        <img src="/Select_ATM.jpg" id="S_ATM"/>
                     </div>
-                    <div className="feature_r5_c1">
-                        <img src="\public\Atm_img.png" alt="ATM" className="ATM_img"></img>
-                    </div>
+                    
                     <div className="feature_r5_c2">
                         <h4 className="feature_r5_c2_header">
                             ATM tags and Information on the Map
@@ -101,7 +93,7 @@ function Features(){
                 </div>
                 <div className="feature_row" id="card">
                     <div className="feature_r6_c1">
-                        <img src="\public\recommend_img.png" alt="Recommendation" className="recommend_img"></img>
+                        <img src="/recommend_img.png" alt="Recommendation" className="recommend_img"></img>
                     </div>
                     <div className="feature_r6_c2">
                         <h4 className="feature_r6_c2_header">

@@ -17,7 +17,7 @@ function Background(){
                         </div>                      
                         <div className="front">
                             <h1 id ="background_h1">Traditional Banking</h1>
-                            <img src="\public\bank.jpg" alt="Teller" className="Teller_img"></img>
+                            <img src="/bank.jpg" alt="Teller" className="Teller_img"></img>
                         </div>
                     </div>
                     </div>
@@ -30,13 +30,13 @@ function Background(){
                         </div>                    
                         <div className="front">
                             <h1 id ="background_h1">Present Banking</h1>
-                            <img src="\public\Atm_img.png" alt="Teller" className="Teller_img"></img>
+                            <img src="/Atm_img.png" alt="Teller" className="Teller_img"></img>
                         </div>                         
                     </div>
                     </div>
                     </div>
                     <div className="Customer_header">
-                        <img src="\public\dislike_img.png" alt="No Cash" className="Dislike_img"></img>
+                        <img src="/dislike_img.png" alt="No Cash" className="Dislike_img"></img>
                         <div>
                         <h2 className="Customer_header_text" id ="background_h1">The Customers are Dissatisfied</h2>
                         <p className="Customer_text1" id="Mini_text">As ATMs become a staple of modern banking issues such as insufficent funds and malfunctioning ATMs have led to increasing customer dissatisfaction</p>

@@ -18,15 +18,16 @@ li {
   /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
   font-size: large;
   height: 30px ; 
-  flex-shrink: 0; 
+  flex-shrink: 0;
+  background-color: white; 
+  height: 100px;
 }
+
 .heading_logo{
   width: 10px;
   height: 10px;
 }
-header{
-  background-color: white;
-}
+
 
 .HButton{
   text-decoration: none;
@@ -80,7 +81,9 @@ body{
 #body_feat{
   align-items: flex-start;
 }
-
+#card{
+  width: 1300px;
+}
 #feature_r1_c2{
   border-radius:8px;
   padding:20px;
@@ -109,28 +112,33 @@ body{
 }
 
 .feature_r1_c2_header,.feature_r2_c2_header,.feature_r3_c2_header,.feature_r4_c2_header,.feature_r5_c2_header,.feature_r6_c2_header{
-  font-family: 'Roboto', sans-serif;
-  font-size: x-large;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: xx-large;
   padding-left: 8px;
 }
 
 .feature_r1_c2_text,.feature_r2_c2_text,.feature_r3_c2_text,.feature_r4_c2_text1,.feature_r4_c2_text2,.feature_r5_c2_text,.feature_r6_c2_text{
   padding: 15px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .feature_r3_c2{
-  width:500px
+  width:750px
 }
 #card_3_og{
-  margin-left:300px;
+  width:800px;
+}
+#card_3{
+  height:550px;
 }
 
 #card_2, #card_4{
   display: flex;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-right: 700px;
-  
+  width: 1300px;  
+}
+#card_4{
+   margin-right: 700px;
 }
 #card_6{
   display: flex;
@@ -149,6 +157,7 @@ body{
 }
 #card_0{
   display: flex;
+  height: 600px;
 }
 #img_card_0{
   width:700px
@@ -158,12 +167,21 @@ body{
   width:350px;
 }
 #card_1{
-  width: 500px;
-  gap:14px;
-  margin-left: 100px;
+  height: 600px;
+  padding:0;
+  width:1300px;
+}
+#s{
+  height:600px;
+  width: 450px;
+}
+#port{
+  height: 600px;
+  width: 450px;
 }
 #row_1{
   display: flex;
+  height: 550px;
 }
 #row_3_p1{
   height:500px;
@@ -180,11 +198,9 @@ body{
 
 }
 
- #card_3,#card_5{
-   width: 1300px
- }
  #Survey{
-  height: 400px;
+  height: 560px;
+  
  }
  #card_8{
   margin-right: 100px;
